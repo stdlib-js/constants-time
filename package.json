@@ -50,7 +50,8 @@
     "@stdlib/constants-time-seconds-in-hour": "^0.1.0",
     "@stdlib/constants-time-seconds-in-minute": "^0.1.0",
     "@stdlib/constants-time-seconds-in-week": "^0.1.0",
-    "@stdlib/utils-define-read-only-property": "^0.0.8"
+    "@stdlib/utils-define-read-only-property": "^0.0.8",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/math-base-special-roundn": "^0.0.6",
