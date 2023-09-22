@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-time",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Time constants.",
   "license": "Apache-2.0",
   "author": {
@@ -35,22 +35,22 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/constants-time-hours-in-day": "^0.0.8",
-    "@stdlib/constants-time-hours-in-week": "^0.0.8",
-    "@stdlib/constants-time-milliseconds-in-day": "^0.0.8",
-    "@stdlib/constants-time-milliseconds-in-hour": "^0.0.8",
-    "@stdlib/constants-time-milliseconds-in-minute": "^0.0.8",
-    "@stdlib/constants-time-milliseconds-in-second": "^0.0.8",
-    "@stdlib/constants-time-milliseconds-in-week": "^0.0.8",
-    "@stdlib/constants-time-minutes-in-day": "^0.0.8",
-    "@stdlib/constants-time-minutes-in-hour": "^0.0.8",
-    "@stdlib/constants-time-minutes-in-week": "^0.0.8",
-    "@stdlib/constants-time-months-in-year": "^0.0.8",
-    "@stdlib/constants-time-seconds-in-day": "^0.1.0",
-    "@stdlib/constants-time-seconds-in-hour": "^0.1.0",
-    "@stdlib/constants-time-seconds-in-minute": "^0.1.0",
-    "@stdlib/constants-time-seconds-in-week": "^0.1.0",
-    "@stdlib/utils-define-read-only-property": "^0.0.8"
+    "@stdlib/constants-time-hours-in-day": "^0.1.0",
+    "@stdlib/constants-time-hours-in-week": "^0.1.0",
+    "@stdlib/constants-time-milliseconds-in-day": "^0.1.0",
+    "@stdlib/constants-time-milliseconds-in-hour": "^0.1.0",
+    "@stdlib/constants-time-milliseconds-in-minute": "^0.1.0",
+    "@stdlib/constants-time-milliseconds-in-second": "^0.1.0",
+    "@stdlib/constants-time-milliseconds-in-week": "^0.1.0",
+    "@stdlib/constants-time-minutes-in-day": "^0.1.0",
+    "@stdlib/constants-time-minutes-in-hour": "^0.1.0",
+    "@stdlib/constants-time-minutes-in-week": "^0.1.0",
+    "@stdlib/constants-time-months-in-year": "^0.1.0",
+    "@stdlib/constants-time-seconds-in-day": "^0.2.0",
+    "@stdlib/constants-time-seconds-in-hour": "^0.2.0",
+    "@stdlib/constants-time-seconds-in-minute": "^0.2.0",
+    "@stdlib/constants-time-seconds-in-week": "^0.2.0",
+    "@stdlib/utils-define-read-only-property": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/math-base-special-roundn": "^0.0.6",
