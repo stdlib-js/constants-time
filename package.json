@@ -3,8 +3,29 @@
   "version": "0.2.0",
   "description": "Time constants.",
   "license": "Apache-2.0",
-  "type": "module",
-  "main": "./mod.js",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -13,6 +34,48 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/constants-time-hours-in-day": "^0.2.0",
+    "@stdlib/constants-time-hours-in-week": "^0.2.0",
+    "@stdlib/constants-time-milliseconds-in-day": "^0.2.0",
+    "@stdlib/constants-time-milliseconds-in-hour": "^0.2.0",
+    "@stdlib/constants-time-milliseconds-in-minute": "^0.2.0",
+    "@stdlib/constants-time-milliseconds-in-second": "^0.2.0",
+    "@stdlib/constants-time-milliseconds-in-week": "^0.2.0",
+    "@stdlib/constants-time-minutes-in-day": "^0.2.0",
+    "@stdlib/constants-time-minutes-in-hour": "^0.2.0",
+    "@stdlib/constants-time-minutes-in-week": "^0.2.0",
+    "@stdlib/constants-time-months-in-year": "^0.2.0",
+    "@stdlib/constants-time-seconds-in-day": "^0.2.0",
+    "@stdlib/constants-time-seconds-in-hour": "^0.2.0",
+    "@stdlib/constants-time-seconds-in-minute": "^0.2.0",
+    "@stdlib/constants-time-seconds-in-week": "^0.2.0",
+    "@stdlib/utils-define-read-only-property": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.0"
+  },
+  "devDependencies": {
+    "@stdlib/math-base-special-roundn": "^0.1.0",
+    "@stdlib/random-base-randu": "^0.1.0",
+    "@stdlib/utils-keys": "^0.1.0",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdtime",
