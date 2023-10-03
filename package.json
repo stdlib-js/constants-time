@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-time",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Time constants.",
   "license": "Apache-2.0",
   "author": {
@@ -46,11 +46,11 @@
     "@stdlib/constants-time-minutes-in-hour": "^0.2.0",
     "@stdlib/constants-time-minutes-in-week": "^0.2.0",
     "@stdlib/constants-time-months-in-year": "^0.2.0",
-    "@stdlib/constants-time-seconds-in-day": "^0.2.0",
-    "@stdlib/constants-time-seconds-in-hour": "^0.2.0",
-    "@stdlib/constants-time-seconds-in-minute": "^0.2.0",
-    "@stdlib/constants-time-seconds-in-week": "^0.2.0",
-    "@stdlib/utils-define-read-only-property": "^0.1.0"
+    "@stdlib/constants-time-seconds-in-day": "^0.2.1",
+    "@stdlib/constants-time-seconds-in-hour": "^0.2.1",
+    "@stdlib/constants-time-seconds-in-minute": "^0.2.1",
+    "@stdlib/constants-time-seconds-in-week": "^0.2.1",
+    "@stdlib/utils-define-read-only-property": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/math-base-special-roundn": "^0.1.0",
