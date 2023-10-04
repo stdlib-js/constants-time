@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-time/tags). For example,
+
+```javascript
 import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { HOURS_IN_DAY, HOURS_IN_WEEK, MILLISECONDS_IN_DAY, MILLISECONDS_IN_HOUR, MILLISECONDS_IN_MINUTE, MILLISECONDS_IN_SECOND, MILLISECONDS_IN_WEEK, MINUTES_IN_DAY, MINUTES_IN_HOUR, MINUTES_IN_WEEK, MONTHS_IN_YEAR, SECONDS_IN_DAY, SECONDS_IN_HOUR, SECONDS_IN_MINUTE, SECONDS_IN_WEEK } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time@v0.2.1-deno/mod.js';
+import { HOURS_IN_DAY, HOURS_IN_WEEK, MILLISECONDS_IN_DAY, MILLISECONDS_IN_HOUR, MILLISECONDS_IN_MINUTE, MILLISECONDS_IN_SECOND, MILLISECONDS_IN_WEEK, MINUTES_IN_DAY, MINUTES_IN_HOUR, MINUTES_IN_WEEK, MONTHS_IN_YEAR, SECONDS_IN_DAY, SECONDS_IN_HOUR, SECONDS_IN_MINUTE, SECONDS_IN_WEEK } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time@deno/mod.js';
 ```
 
 #### constants
@@ -98,7 +103,7 @@ var c = constants;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time@v0.2.1-deno/mod.js';
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time@deno/mod.js';
 
 console.log( objectKeys( constants ) );
 ```
