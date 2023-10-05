@@ -35,25 +35,30 @@ limitations under the License.
 
 > Time constants.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-time
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time@deno/mod.js';
-```
-The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-time/tags). For example,
-
-```javascript
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time@v0.2.1-deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { HOURS_IN_DAY, HOURS_IN_WEEK, MILLISECONDS_IN_DAY, MILLISECONDS_IN_HOUR, MILLISECONDS_IN_MINUTE, MILLISECONDS_IN_SECOND, MILLISECONDS_IN_WEEK, MINUTES_IN_DAY, MINUTES_IN_HOUR, MINUTES_IN_WEEK, MONTHS_IN_YEAR, SECONDS_IN_DAY, SECONDS_IN_HOUR, SECONDS_IN_MINUTE, SECONDS_IN_WEEK } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time@deno/mod.js';
+var constants = require( '@stdlib/constants-time' );
 ```
 
 #### constants
@@ -102,8 +107,8 @@ var c = constants;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var constants = require( '@stdlib/constants-time' );
 
 console.log( objectKeys( constants ) );
 ```
@@ -129,7 +134,7 @@ console.log( objectKeys( constants ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -159,8 +164,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/constants-time.svg
 [npm-url]: https://npmjs.org/package/@stdlib/constants-time
 
-[test-image]: https://github.com/stdlib-js/constants-time/actions/workflows/test.yml/badge.svg?branch=v0.2.1
-[test-url]: https://github.com/stdlib-js/constants-time/actions/workflows/test.yml?query=branch:v0.2.1
+[test-image]: https://github.com/stdlib-js/constants-time/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/constants-time/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-time/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-time?branch=main
@@ -191,35 +196,35 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/constants/time/hours-in-day]: https://github.com/stdlib-js/constants-time-hours-in-day/tree/deno
+[@stdlib/constants/time/hours-in-day]: https://github.com/stdlib-js/constants-time-hours-in-day
 
-[@stdlib/constants/time/hours-in-week]: https://github.com/stdlib-js/constants-time-hours-in-week/tree/deno
+[@stdlib/constants/time/hours-in-week]: https://github.com/stdlib-js/constants-time-hours-in-week
 
-[@stdlib/constants/time/milliseconds-in-day]: https://github.com/stdlib-js/constants-time-milliseconds-in-day/tree/deno
+[@stdlib/constants/time/milliseconds-in-day]: https://github.com/stdlib-js/constants-time-milliseconds-in-day
 
-[@stdlib/constants/time/milliseconds-in-hour]: https://github.com/stdlib-js/constants-time-milliseconds-in-hour/tree/deno
+[@stdlib/constants/time/milliseconds-in-hour]: https://github.com/stdlib-js/constants-time-milliseconds-in-hour
 
-[@stdlib/constants/time/milliseconds-in-minute]: https://github.com/stdlib-js/constants-time-milliseconds-in-minute/tree/deno
+[@stdlib/constants/time/milliseconds-in-minute]: https://github.com/stdlib-js/constants-time-milliseconds-in-minute
 
-[@stdlib/constants/time/milliseconds-in-second]: https://github.com/stdlib-js/constants-time-milliseconds-in-second/tree/deno
+[@stdlib/constants/time/milliseconds-in-second]: https://github.com/stdlib-js/constants-time-milliseconds-in-second
 
-[@stdlib/constants/time/milliseconds-in-week]: https://github.com/stdlib-js/constants-time-milliseconds-in-week/tree/deno
+[@stdlib/constants/time/milliseconds-in-week]: https://github.com/stdlib-js/constants-time-milliseconds-in-week
 
-[@stdlib/constants/time/minutes-in-day]: https://github.com/stdlib-js/constants-time-minutes-in-day/tree/deno
+[@stdlib/constants/time/minutes-in-day]: https://github.com/stdlib-js/constants-time-minutes-in-day
 
-[@stdlib/constants/time/minutes-in-hour]: https://github.com/stdlib-js/constants-time-minutes-in-hour/tree/deno
+[@stdlib/constants/time/minutes-in-hour]: https://github.com/stdlib-js/constants-time-minutes-in-hour
 
-[@stdlib/constants/time/minutes-in-week]: https://github.com/stdlib-js/constants-time-minutes-in-week/tree/deno
+[@stdlib/constants/time/minutes-in-week]: https://github.com/stdlib-js/constants-time-minutes-in-week
 
-[@stdlib/constants/time/months-in-year]: https://github.com/stdlib-js/constants-time-months-in-year/tree/deno
+[@stdlib/constants/time/months-in-year]: https://github.com/stdlib-js/constants-time-months-in-year
 
-[@stdlib/constants/time/seconds-in-day]: https://github.com/stdlib-js/constants-time-seconds-in-day/tree/deno
+[@stdlib/constants/time/seconds-in-day]: https://github.com/stdlib-js/constants-time-seconds-in-day
 
-[@stdlib/constants/time/seconds-in-hour]: https://github.com/stdlib-js/constants-time-seconds-in-hour/tree/deno
+[@stdlib/constants/time/seconds-in-hour]: https://github.com/stdlib-js/constants-time-seconds-in-hour
 
-[@stdlib/constants/time/seconds-in-minute]: https://github.com/stdlib-js/constants-time-seconds-in-minute/tree/deno
+[@stdlib/constants/time/seconds-in-minute]: https://github.com/stdlib-js/constants-time-seconds-in-minute
 
-[@stdlib/constants/time/seconds-in-week]: https://github.com/stdlib-js/constants-time-seconds-in-week/tree/deno
+[@stdlib/constants/time/seconds-in-week]: https://github.com/stdlib-js/constants-time-seconds-in-week
 
 <!-- </toc-links> -->
 
