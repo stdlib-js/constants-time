@@ -35,30 +35,20 @@ limitations under the License.
 
 > Time constants.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/constants-time
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var constants = require( '@stdlib/constants-time' );
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { HOURS_IN_DAY, HOURS_IN_WEEK, MILLISECONDS_IN_DAY, MILLISECONDS_IN_HOUR, MILLISECONDS_IN_MINUTE, MILLISECONDS_IN_SECOND, MILLISECONDS_IN_WEEK, MINUTES_IN_DAY, MINUTES_IN_HOUR, MINUTES_IN_WEEK, MONTHS_IN_YEAR, SECONDS_IN_DAY, SECONDS_IN_HOUR, SECONDS_IN_MINUTE, SECONDS_IN_WEEK } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time@esm/index.mjs';
 ```
 
 #### constants
@@ -106,11 +96,20 @@ var c = constants;
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var constants = require( '@stdlib/constants-time' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time@esm/index.mjs';
 
 console.log( objectKeys( constants ) );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -134,7 +133,7 @@ console.log( objectKeys( constants ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -196,35 +195,35 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/constants/time/hours-in-day]: https://github.com/stdlib-js/constants-time-hours-in-day
+[@stdlib/constants/time/hours-in-day]: https://github.com/stdlib-js/constants-time-hours-in-day/tree/esm
 
-[@stdlib/constants/time/hours-in-week]: https://github.com/stdlib-js/constants-time-hours-in-week
+[@stdlib/constants/time/hours-in-week]: https://github.com/stdlib-js/constants-time-hours-in-week/tree/esm
 
-[@stdlib/constants/time/milliseconds-in-day]: https://github.com/stdlib-js/constants-time-milliseconds-in-day
+[@stdlib/constants/time/milliseconds-in-day]: https://github.com/stdlib-js/constants-time-milliseconds-in-day/tree/esm
 
-[@stdlib/constants/time/milliseconds-in-hour]: https://github.com/stdlib-js/constants-time-milliseconds-in-hour
+[@stdlib/constants/time/milliseconds-in-hour]: https://github.com/stdlib-js/constants-time-milliseconds-in-hour/tree/esm
 
-[@stdlib/constants/time/milliseconds-in-minute]: https://github.com/stdlib-js/constants-time-milliseconds-in-minute
+[@stdlib/constants/time/milliseconds-in-minute]: https://github.com/stdlib-js/constants-time-milliseconds-in-minute/tree/esm
 
-[@stdlib/constants/time/milliseconds-in-second]: https://github.com/stdlib-js/constants-time-milliseconds-in-second
+[@stdlib/constants/time/milliseconds-in-second]: https://github.com/stdlib-js/constants-time-milliseconds-in-second/tree/esm
 
-[@stdlib/constants/time/milliseconds-in-week]: https://github.com/stdlib-js/constants-time-milliseconds-in-week
+[@stdlib/constants/time/milliseconds-in-week]: https://github.com/stdlib-js/constants-time-milliseconds-in-week/tree/esm
 
-[@stdlib/constants/time/minutes-in-day]: https://github.com/stdlib-js/constants-time-minutes-in-day
+[@stdlib/constants/time/minutes-in-day]: https://github.com/stdlib-js/constants-time-minutes-in-day/tree/esm
 
-[@stdlib/constants/time/minutes-in-hour]: https://github.com/stdlib-js/constants-time-minutes-in-hour
+[@stdlib/constants/time/minutes-in-hour]: https://github.com/stdlib-js/constants-time-minutes-in-hour/tree/esm
 
-[@stdlib/constants/time/minutes-in-week]: https://github.com/stdlib-js/constants-time-minutes-in-week
+[@stdlib/constants/time/minutes-in-week]: https://github.com/stdlib-js/constants-time-minutes-in-week/tree/esm
 
-[@stdlib/constants/time/months-in-year]: https://github.com/stdlib-js/constants-time-months-in-year
+[@stdlib/constants/time/months-in-year]: https://github.com/stdlib-js/constants-time-months-in-year/tree/esm
 
-[@stdlib/constants/time/seconds-in-day]: https://github.com/stdlib-js/constants-time-seconds-in-day
+[@stdlib/constants/time/seconds-in-day]: https://github.com/stdlib-js/constants-time-seconds-in-day/tree/esm
 
-[@stdlib/constants/time/seconds-in-hour]: https://github.com/stdlib-js/constants-time-seconds-in-hour
+[@stdlib/constants/time/seconds-in-hour]: https://github.com/stdlib-js/constants-time-seconds-in-hour/tree/esm
 
-[@stdlib/constants/time/seconds-in-minute]: https://github.com/stdlib-js/constants-time-seconds-in-minute
+[@stdlib/constants/time/seconds-in-minute]: https://github.com/stdlib-js/constants-time-seconds-in-minute/tree/esm
 
-[@stdlib/constants/time/seconds-in-week]: https://github.com/stdlib-js/constants-time-seconds-in-week
+[@stdlib/constants/time/seconds-in-week]: https://github.com/stdlib-js/constants-time-seconds-in-week/tree/esm
 
 <!-- </toc-links> -->
 
