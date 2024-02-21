@@ -35,43 +35,32 @@ limitations under the License.
 
 > Time constants.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-time
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-constants = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-time/tags). For example,
-
-```javascript
-constants = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time@v0.3.0-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var constants = require( 'path/to/vendor/umd/constants-time/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-time@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.constants;
-})();
-</script>
+var constants = require( '@stdlib/constants-time' );
 ```
 
 #### constants
@@ -119,21 +108,11 @@ var c = constants;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-time@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var constants = require( '@stdlib/constants-time' );
 
 console.log( objectKeys( constants ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -187,8 +166,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/constants-time.svg
 [npm-url]: https://npmjs.org/package/@stdlib/constants-time
 
-[test-image]: https://github.com/stdlib-js/constants-time/actions/workflows/test.yml/badge.svg?branch=v0.3.0
-[test-url]: https://github.com/stdlib-js/constants-time/actions/workflows/test.yml?query=branch:v0.3.0
+[test-image]: https://github.com/stdlib-js/constants-time/actions/workflows/test.yml/badge.svg?branch=v0.3.1
+[test-url]: https://github.com/stdlib-js/constants-time/actions/workflows/test.yml?query=branch:v0.3.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-time/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-time?branch=main
@@ -222,35 +201,35 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/constants/time/hours-in-day]: https://github.com/stdlib-js/constants-time-hours-in-day/tree/umd
+[@stdlib/constants/time/hours-in-day]: https://github.com/stdlib-js/constants-time-hours-in-day
 
-[@stdlib/constants/time/hours-in-week]: https://github.com/stdlib-js/constants-time-hours-in-week/tree/umd
+[@stdlib/constants/time/hours-in-week]: https://github.com/stdlib-js/constants-time-hours-in-week
 
-[@stdlib/constants/time/milliseconds-in-day]: https://github.com/stdlib-js/constants-time-milliseconds-in-day/tree/umd
+[@stdlib/constants/time/milliseconds-in-day]: https://github.com/stdlib-js/constants-time-milliseconds-in-day
 
-[@stdlib/constants/time/milliseconds-in-hour]: https://github.com/stdlib-js/constants-time-milliseconds-in-hour/tree/umd
+[@stdlib/constants/time/milliseconds-in-hour]: https://github.com/stdlib-js/constants-time-milliseconds-in-hour
 
-[@stdlib/constants/time/milliseconds-in-minute]: https://github.com/stdlib-js/constants-time-milliseconds-in-minute/tree/umd
+[@stdlib/constants/time/milliseconds-in-minute]: https://github.com/stdlib-js/constants-time-milliseconds-in-minute
 
-[@stdlib/constants/time/milliseconds-in-second]: https://github.com/stdlib-js/constants-time-milliseconds-in-second/tree/umd
+[@stdlib/constants/time/milliseconds-in-second]: https://github.com/stdlib-js/constants-time-milliseconds-in-second
 
-[@stdlib/constants/time/milliseconds-in-week]: https://github.com/stdlib-js/constants-time-milliseconds-in-week/tree/umd
+[@stdlib/constants/time/milliseconds-in-week]: https://github.com/stdlib-js/constants-time-milliseconds-in-week
 
-[@stdlib/constants/time/minutes-in-day]: https://github.com/stdlib-js/constants-time-minutes-in-day/tree/umd
+[@stdlib/constants/time/minutes-in-day]: https://github.com/stdlib-js/constants-time-minutes-in-day
 
-[@stdlib/constants/time/minutes-in-hour]: https://github.com/stdlib-js/constants-time-minutes-in-hour/tree/umd
+[@stdlib/constants/time/minutes-in-hour]: https://github.com/stdlib-js/constants-time-minutes-in-hour
 
-[@stdlib/constants/time/minutes-in-week]: https://github.com/stdlib-js/constants-time-minutes-in-week/tree/umd
+[@stdlib/constants/time/minutes-in-week]: https://github.com/stdlib-js/constants-time-minutes-in-week
 
-[@stdlib/constants/time/months-in-year]: https://github.com/stdlib-js/constants-time-months-in-year/tree/umd
+[@stdlib/constants/time/months-in-year]: https://github.com/stdlib-js/constants-time-months-in-year
 
-[@stdlib/constants/time/seconds-in-day]: https://github.com/stdlib-js/constants-time-seconds-in-day/tree/umd
+[@stdlib/constants/time/seconds-in-day]: https://github.com/stdlib-js/constants-time-seconds-in-day
 
-[@stdlib/constants/time/seconds-in-hour]: https://github.com/stdlib-js/constants-time-seconds-in-hour/tree/umd
+[@stdlib/constants/time/seconds-in-hour]: https://github.com/stdlib-js/constants-time-seconds-in-hour
 
-[@stdlib/constants/time/seconds-in-minute]: https://github.com/stdlib-js/constants-time-seconds-in-minute/tree/umd
+[@stdlib/constants/time/seconds-in-minute]: https://github.com/stdlib-js/constants-time-seconds-in-minute
 
-[@stdlib/constants/time/seconds-in-week]: https://github.com/stdlib-js/constants-time-seconds-in-week/tree/umd
+[@stdlib/constants/time/seconds-in-week]: https://github.com/stdlib-js/constants-time-seconds-in-week
 
 <!-- </toc-links> -->
 
