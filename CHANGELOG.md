@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-19)
+## Unreleased (2026-01-29)
 
 <section class="issues">
 
@@ -24,7 +24,9 @@ This release closes the following issue:
 
 <details>
 
--   [`d184af8`](https://github.com/stdlib-js/stdlib/commit/d184af8e708f060929ad52eaa1917dbd61abc7e3) - **chore:** fix EditorConfig lint errors [(#6945)](https://github.com/stdlib-js/stdlib/pull/6945) _(by zhanggy)_
+-   [`0f7607a`](https://github.com/stdlib-js/stdlib/commit/0f7607a1d5bc88b5ee38d5091725678eafd304f6) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
+-   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
+-   [`d184af8`](https://github.com/stdlib-js/stdlib/commit/d184af8e708f060929ad52eaa1917dbd61abc7e3) - **chore:** fix EditorConfig lint errors [(#6945)](https://github.com/stdlib-js/stdlib/pull/6945) _(by Geo Daoyu)_
 
 </details>
 
@@ -36,9 +38,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
--   zhanggy
+-   Geo Daoyu
+-   Philipp Burckhardt
 
 </section>
 
